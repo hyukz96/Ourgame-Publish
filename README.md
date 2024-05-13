@@ -1,4 +1,4 @@
-# ourgame-baseball_of_our_own
+# Ourgame : Baseball of Our Own
 
 This application is willing to serve these functions :
  - Compare baseball records with user's friends
