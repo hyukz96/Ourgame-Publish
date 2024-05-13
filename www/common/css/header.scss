@@ -1,0 +1,47 @@
+header {
+    position: relative;
+    background-color: #1A4D2E;
+    padding: 20px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .main_logo {
+        width: 50%;
+        img {
+            width: 100%;
+        }
+    }
+    #menuSlide {
+        width: 10%;
+        order: 2;
+        background-color: transparent;
+        border: none;
+        img {
+            width: 100%;
+        }
+    }
+    #mobileNav {
+        position: absolute;
+        top: -300%;
+        left: 0;
+        width: 100%;
+        background-color: #1A4D2E;
+        transition: top 1s;
+        ul {
+            padding: 0;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: stretch;
+            li {
+                margin: 0 0 20px 10px;
+                background-image: url(../img/list.png);
+                background-repeat: no-repeat;
+                background-size: contain;
+                color: white;
+                text-indent: 10%;
+                font-size: 1.25rem;
+            }
+        }
+    }
+}
