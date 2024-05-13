@@ -43,9 +43,9 @@ a {
     text-decoration: none;
     display: block;
 }
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, th, td {
     font-size: 100%; /* 웹폰트 기본크기 : 16px = 100% */
-    font-weight: 400;
+    font-weight: 500;
 }
 
 .clearfix::after {
