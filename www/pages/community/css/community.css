@@ -1,0 +1,54 @@
+article {
+  width: 100%;
+  margin-bottom: 0.6rem;
+}
+article table {
+  width: 94.5%;
+  padding: 0.6rem;
+  margin: 0 auto 0.6rem;
+  border-collapse: collapse;
+}
+article table thead tr {
+  background-color: #d9d9d9;
+}
+article table thead tr th {
+  font-size: 1.125rem;
+  text-align: center;
+  padding: 0.3rem;
+}
+article table thead tr th:first-child {
+  width: 9%;
+}
+article table thead tr th:nth-child(2) {
+  width: 45%;
+}
+article table thead tr th:nth-child(3) {
+  width: 15%;
+}
+article table tbody {
+  margin-top: 5px;
+}
+article table tbody tr td {
+  width: 16.66%;
+  text-align: center;
+  padding: 0.3rem;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+article table tbody tr td a {
+  font-size: 0.8rem;
+  font-family: "KBO-Dia-Gothic_light";
+  color: black;
+}
+article button {
+  display: block;
+  width: 94.5%;
+  margin: 0 auto;
+  padding: 0.6rem;
+  text-align: center;
+  border: none;
+  background-color: #1A4D2E;
+  color: white;
+  font-size: 1.25rem;
+  border-radius: 0.2rem;
+}/*# sourceMappingURL=community.css.map */

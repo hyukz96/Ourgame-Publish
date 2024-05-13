@@ -44,4 +44,11 @@ header #mobileNav ul li {
   color: white;
   text-indent: 10%;
   font-size: 1.25rem;
+}
+
+h1 {
+  background-color: #1A4D2E;
+  padding: 5px 10px;
+  color: white;
+  font-size: 1.25rem;
 }/*# sourceMappingURL=header.css.map */
