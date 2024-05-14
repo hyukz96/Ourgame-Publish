@@ -1,0 +1,54 @@
+article {
+  width: 94.5%;
+  margin: 0 auto;
+}
+article form {
+  width: 100%;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+}
+article form #titlE {
+  margin-bottom: 10px;
+  font-size: 0.875rem;
+  padding: 5px;
+}
+article form #secTion {
+  margin-bottom: 10px;
+  min-height: 150px;
+  font-size: 0.875rem;
+  padding: 5px;
+}
+article form label {
+  font-size: 0.75rem;
+  font-family: "KBO-Dia-Gothic_light";
+}
+article .buttons {
+  width: 100%;
+  margin: 0.625rem auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 5rem;
+}
+article .buttons button {
+  width: 40%;
+  font-size: 1rem;
+  padding: 0.312rem 0;
+  background-color: #1a4d2e;
+  border: none;
+  border-radius: 0.187rem;
+  color: white;
+}
+article #donE {
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0.6rem;
+  text-align: center;
+  border: none;
+  background-color: #1A4D2E;
+  color: white;
+  font-size: 1.25rem;
+  border-radius: 0.2rem;
+}/*# sourceMappingURL=community_write.css.map */
