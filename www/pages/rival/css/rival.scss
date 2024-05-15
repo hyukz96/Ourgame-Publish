@@ -1,0 +1,44 @@
+.wrap {
+    width: 94.5%;
+    margin: 0 auto;
+    .stat_wrap {
+        margin: 10px 0 30px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 10%;
+        .stats {
+            width: 45%;
+            text-align: center;
+            h2 {
+                font-size: 1.375rem;
+                font-weight: 700;
+            }
+            h3 {
+                font-size: 1.25rem;
+                margin: 15px 0 20px;
+            }
+            h4 {
+                font-size: 1rem;
+                margin: 10px 0 5px;
+            }
+            p {
+                font-family: 'KBO-Dia-Gothic_light';
+                font-size: 0.875rem;
+            }
+            .showlater {
+                display: none;
+            }
+        }
+    }
+    button {
+        width: 100%;
+        padding: 10px;
+        margin: 20px 0 10px;
+        font-size: 1.25rem;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        background-color: #1a4d2E;
+    }
+}
