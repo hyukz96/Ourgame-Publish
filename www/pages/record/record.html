@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ourgame : Baseball of Our Own</title>
+
+    <link rel="stylesheet" href="../../common/css/reset.css">
+    <link rel="stylesheet" href="../../common/css/header.css">
+    <link rel="stylesheet" href="css/record.css">
+</head>
+<body>
+    <header>
+        <div class="main_logo">
+            <img src="../../common/img/logo.png" alt="Ourgame : Baseball of Our Own의 메인 로고입니다.">
+        </div>
+        <button id="menuSlide"><img src="../../common/img/menu.png" alt="메뉴 버튼입니다."></button>
+        <nav id="mobileNav">
+            <ul>
+                <li>랭킹</li>
+                <li>커뮤니티</li>
+                <li>라이벌 대전</li>
+                <li>내 기록 입력</li>
+                <li>친구 추가</li>
+            </ul>
+        </nav>
+    </header>
+
+    <h1>내 기록 입력 Record Entry</h1>
+
+    <article>
+        <h2>개인 기록을 입력해주세요.</h2>
+
+        <div class="group-wrap">
+            <div class="input-group">
+                <label for="gameS">경기</label>
+                <input type="number" id="gameS">
+            </div>
+            
+            <div class="input-group">
+                <label for="plateAppear">타석</label>
+                <input type="number" id="plateAppear">
+            </div>
+            
+            <div class="input-group">
+                <label for="atBat">타수</label>
+                <input type="number" id="atBat">
+            </div>
+            
+            <div class="input-group">
+                <label for="runS">득점</label>
+                <input type="number" id="runS">
+            </div>
+            
+            <div class="input-group">
+                <label for="hitS">안타</label>
+                <input type="number" id="hitS">
+            </div>
+            
+            <div class="input-group">
+                <label for="twoBase">2루타</label>
+                <input type="number" id="twoBase">
+            </div>
+            
+            <div class="input-group">
+                <label for="threeBase">3루타</label>
+                <input type="number" id="threeBase">
+            </div>
+            
+            <div class="input-group">
+                <label for="homeRun">홈런</label>
+                <input type="number" id="homeRun">
+            </div>
+            
+            <div class="input-group">
+                <label for="totalBase">루타</label>
+                <input type="number" id="totalBase">
+            </div>
+            
+            <div class="input-group">
+                <label for="runsBattedin">타점</label>
+                <input type="number" id="runsBattedin">
+            </div>
+            
+            <div class="input-group">
+                <label for="stolenBase">도루</label>
+                <input type="number" id="stolenBase">
+            </div>
+            
+            <div class="input-group">
+                <label for="caughtSteal">도루실패</label>
+                <input type="number" id="caughtSteal">
+            </div>
+            
+            <div class="input-group">
+                <label for="baseOnballs">볼넷</label>
+                <input type="number" id="baseOnballs">
+            </div>
+            
+            <div class="input-group">
+                <label for="hitbyPitch">사구</label>
+                <input type="number" id="hitbyPitch">
+            </div>
+            
+            <div class="input-group">
+                <label for="intenBb">고의4구</label>
+                <input type="number" id="intenBb">
+            </div>
+            
+            <div class="input-group">
+                <label for="strikeOut">삼진</label>
+                <input type="number" id="strikeOut">
+            </div>
+            
+            <div class="input-group">
+                <label for="doublePlay">병살타</label>
+                <input type="number" id="doublePlay">
+            </div>
+            
+            <div class="input-group">
+                <label for="sacHit">희생타(희생번트)</label>
+                <input type="number" id="sacHit">
+            </div>
+            
+            <div class="input-group">
+                <label for="sacFly">희생플라이</label>
+                <input type="number" id="sacFly">
+            </div>
+        </div>
+
+        <button id="getRecord">수치 산출</button>
+
+        <table>
+            <tr>
+                <th>타율</th>
+                <th>출루율</th>
+                <th>장타율</th>
+            </tr>
+            <tr>
+                <td id="avG"></td>
+                <td id="obP"></td>
+                <td id="slG"></td>
+            </tr>
+            <tr>
+                <th>OPS</th>
+                <th>K&percnt;</th>
+                <th>BB&percnt;</th>
+            </tr>
+            <tr>
+                <td id="opS"></td>
+                <td id="kPercent"></td>
+                <td id="bbPercent"></td>
+            </tr>
+            <tr>
+                <th>BB/SO</th>
+                <th>BABIP</th>
+                <th>IsoP</th>
+            </tr>
+            <tr>
+                <td id="bbSo"></td>
+                <td id="baBip"></td>
+                <td id="isoP"></td>
+            </tr>
+            <tr>
+                <th>IsoD</th>
+                <th>wOBA</th>
+                <th>RC27</th>
+            </tr>
+            <tr>
+                <td id="isoD"></td>
+                <td id="wOba"></td>
+                <td id="rcperGame"></td>
+            </tr>
+        </table>
+
+        <button id="reSet"></button>
+        <button id="enTer"></button>
+    </article>
+</body>
+</html>
