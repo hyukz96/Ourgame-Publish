@@ -1,1 +1,1 @@
-{"version":3,"sources":[],"names":[],"mappings":"","file":"addfriend.css"}
+{"version":3,"sources":["addfriend.scss","addfriend.css"],"names":[],"mappings":"AAAA;EACI,YAAA;EACA,cAAA;ACCJ;ADAI;EACI,eAAA;EACA,aAAA;EACA,sBAAA;EACA,SAAA;ACER;ADDQ;EACI,aAAA;EACA,sBAAA;EACA,SAAA;ACGZ;ADFY;EACI,kBAAA;ACIhB;ADFY;EACI,mBAAA;EACA,YAAA;ACIhB;ADFY;EACI,mCAAA;EACA,cAAA;ACIhB;ADDQ;EACI,WAAA;EACA,YAAA;EACA,kBAAA;EACA,YAAA;EACA,YAAA;EACA,kBAAA;EACA,yBAAA;ACGZ","file":"addfriend.css"}
