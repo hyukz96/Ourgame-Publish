@@ -1,1 +1,75 @@
-/*# sourceMappingURL=record.css.map */
+article {
+  width: 94.5%;
+  margin: 0 auto;
+}
+article h2 {
+  padding: 10px 0 10px;
+  font-size: 1.25rem;
+}
+article .group-wrap {
+  width: 100%;
+  padding: 10px 0 5px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 5px 20px;
+}
+article .group-wrap .input-group {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+article .group-wrap .input-group label {
+  font-size: 0.75rem;
+  width: 50%;
+  text-align: left;
+}
+article .group-wrap .input-group input {
+  display: block;
+  width: 50%;
+  font-size: 0.75rem;
+}
+article #getRecord {
+  width: 100%;
+  padding: 5px;
+  margin: 5px 0 10px;
+  font-size: 1.25rem;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  background-color: #1a4d2E;
+}
+article table {
+  width: 100%;
+  margin: 10px 0 5px;
+  border-collapse: collapse;
+}
+article table th {
+  background-color: #d9d9d9;
+  border: 2px solid black;
+  font-size: 0.875rem;
+  padding: 5px 0;
+}
+article table td {
+  border: 2px solid black;
+  font-size: 0.75rem;
+  background-color: white;
+  font-family: "KBO-Dia-Gothic_light";
+  text-align: center;
+  padding: 5px 0;
+}
+article .button_group {
+  padding: 5px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+article .button_group button {
+  width: 100%;
+  padding: 5px;
+  font-size: 1.25rem;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  background-color: #1a4d2E;
+}/*# sourceMappingURL=record.css.map */
