@@ -2,10 +2,6 @@ article {
   width: 94.5%;
   margin: 0 auto;
 }
-article h2 {
-  padding: 10px 0 10px;
-  font-size: 1.25rem;
-}
 article .group-wrap {
   width: 100%;
   padding: 10px 0 5px;
@@ -28,7 +24,17 @@ article .group-wrap .input-group input {
   width: 50%;
   font-size: 0.75rem;
 }
-article #getRecord {
+article #getRecordbatting {
+  width: 100%;
+  padding: 5px;
+  margin: 5px 0 10px;
+  font-size: 1.25rem;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  background-color: #1a4d2E;
+}
+article #getRecordpitching {
   width: 100%;
   padding: 5px;
   margin: 5px 0 10px;
@@ -57,14 +63,43 @@ article table td {
   text-align: center;
   padding: 5px 0;
 }
-article .button_group {
+
+h2 {
+  width: 94.5%;
+  margin: 0 auto;
+  padding: 10px 0 10px;
+  font-size: 1.25rem;
+}
+
+.switch {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 0.3rem;
+  padding: 0.6rem;
+}
+.switch button {
+  width: 50%;
+  background-color: #1A4D2E;
+  border: none;
+  border-radius: 0.2rem;
+}
+.switch button p {
+  font-size: 1.25rem;
+  color: white;
+  padding: 10px 0;
+}
+
+.button_group {
+  width: 94.5%;
+  margin: 0 auto;
   padding: 5px 0;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 10px;
 }
-article .button_group button {
+.button_group button {
   width: 100%;
   padding: 5px;
   font-size: 1.25rem;
@@ -72,4 +107,8 @@ article .button_group button {
   border: none;
   border-radius: 5px;
   background-color: #1a4d2E;
+}
+
+#pitchingR {
+  display: none;
 }/*# sourceMappingURL=record.css.map */

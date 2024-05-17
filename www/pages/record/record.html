@@ -28,9 +28,18 @@
 
     <h1>내 기록 입력 Record Entry</h1>
 
-    <article>
-        <h2>개인 기록을 입력해주세요.</h2>
+    <div class="switch">
+        <button id="batRecord">
+            <p>타자 기록</p>
+        </button>
+        <button id="pitRecord">
+            <p>투수 기록</p>
+        </button>
+    </div>
 
+    <h2>개인 기록을 입력해주세요.</h2>
+
+    <article id="battingR">
         <div class="group-wrap">
             <div class="input-group">
                 <label for="gameS">경기</label>
@@ -128,7 +137,7 @@
             </div>
         </div>
 
-        <button id="getRecord">수치 산출</button>
+        <button id="getRecordbatting">수치 산출</button>
 
         <table>
             <tr>
@@ -172,12 +181,135 @@
                 <td id="rcperGame"></td>
             </tr>
         </table>
-
-        <div class="button_group">
-            <button id="reSet">초기화</button>
-            <button id="enTer">기록 등록</button>
-        </div>
-        
     </article>
+
+    <article id="pitchingR">
+        <div class="group-wrap">
+            <div class="input-group">
+                <label for="gameSp">경기</label>
+                <input type="number" id="gameSp">
+            </div>
+            
+            <div class="input-group">
+                <label for="win">승리</label>
+                <input type="number" id="win">
+            </div>
+            
+            <div class="input-group">
+                <label for="lose">패배</label>
+                <input type="number" id="lose">
+            </div>
+            
+            <div class="input-group">
+                <label for="save">세이브</label>
+                <input type="number" id="save">
+            </div>
+            
+            <div class="input-group">
+                <label for="hold">홀드</label>
+                <input type="number" id="hold">
+            </div>
+            
+            <div class="input-group">
+                <label for="batterFaced">타자</label>
+                <input type="number" id="batterFaced">
+            </div>
+            
+            <div class="input-group">
+                <label for="atbatP">타수</label>
+                <input type="number" id="atbatP">
+            </div>
+            
+            <div class="input-group">
+                <label for="inninG">이닝</label>
+                <input type="number" id="inninG">
+            </div>
+            
+            <div class="input-group">
+                <label for="hitsP">피안타</label>
+                <input type="number" id="hitsP">
+            </div>
+            
+            <div class="input-group">
+                <label for="homerunP">피홈런</label>
+                <input type="number" id="homerunP">
+            </div>
+            
+            <div class="input-group">
+                <label for="baseonballsP">볼넷</label>
+                <input type="number" id="baseonballsP">
+            </div>
+            
+            <div class="input-group">
+                <label for="hitbypitchP">사구</label>
+                <input type="number" id="hitbypitchP">
+            </div>
+            
+            <div class="input-group">
+                <label for="strikeoutP">탈삼진</label>
+                <input type="number" id="strikeoutP">
+            </div>
+            
+            <div class="input-group">
+                <label for="wildPitch">폭투</label>
+                <input type="number" id="wildPitch">
+            </div>
+            
+            <div class="input-group">
+                <label for="balk">보크</label>
+                <input type="number" id="balk">
+            </div>
+            
+            <div class="input-group">
+                <label for="runAllowed">실점</label>
+                <input type="number" id="runAllowed">
+            </div>
+            
+            <div class="input-group">
+                <label for="earnedRun">자책점</label>
+                <input type="number" id="earnedRun">
+            </div>
+        </div>
+
+        <button id="getRecordpitching">수치 산출</button>
+
+        <table>
+            <tr>
+                <th>ERA</th>
+                <th>승률</th>
+                <th>WHIP</th>
+            </tr>
+            <tr>
+                <td id="erA"></td>
+                <td id="winPct"></td>
+                <td id="whiP"></td>
+            </tr>
+            <tr>
+                <th>BB/SO</th>
+                <th>FIP</th>
+                <th>H/9</th>
+            </tr>
+            <tr>
+                <td id="bbsoP"></td>
+                <td id="fip"></td>
+                <td id="hitperG"></td>
+            </tr>
+            <tr>
+                <th>HR/9</th>
+                <th>BB/9</th>
+                <th>SO/9</th>
+            </tr>
+            <tr>
+                <td id="hrperG"></td>
+                <td id="bbperG"></td>
+                <td id="soperG"></td>
+            </tr>
+        </table>
+    </article>
+
+    <div class="button_group">
+        <button id="reSet">초기화</button>
+        <button id="enTer">기록 등록</button>
+    </div>
 </body>
 </html>
