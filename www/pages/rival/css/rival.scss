@@ -1,4 +1,24 @@
-.wrap {
+.switch {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 0.3rem;
+
+    padding: 0.6rem;
+    button {
+        width: 50%;
+        background-color: #1A4D2E;
+        border: none;
+        border-radius: 0.20rem;
+        p {
+            font-size: 1.25rem;
+            color: white;
+            padding: 10px 0;
+        }
+    }
+}
+
+.batting_wrap {
     width: 94.5%;
     margin: 0 auto;
     .stat_wrap {
@@ -7,7 +27,7 @@
         flex-direction: row;
         justify-content: center;
         gap: 10%;
-        .stats {
+        .batting_stats {
             width: 45%;
             text-align: center;
             h2 {
@@ -42,3 +62,50 @@
         background-color: #1a4d2E;
     }
 }
+
+.pitching_wrap {
+    width: 94.5%;
+    margin: 0 auto;
+    display: none;
+    .stat_wrap {
+        margin: 10px 0 30px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 10%;
+        .pitching_stats {
+            width: 45%;
+            text-align: center;
+            h2 {
+                font-size: 1.375rem;
+                font-weight: 700;
+            }
+            h3 {
+                font-size: 1.25rem;
+                margin: 15px 0 20px;
+            }
+            h4 {
+                font-size: 1rem;
+                margin: 10px 0 5px;
+            }
+            p {
+                font-family: 'KBO-Dia-Gothic_light';
+                font-size: 0.875rem;
+            }
+            .showlater {
+                display: none;
+            }
+        }
+    }
+    button {
+        width: 100%;
+        padding: 10px;
+        margin: 20px 0 10px;
+        font-size: 1.25rem;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        background-color: #1a4d2E;
+    }
+}
+

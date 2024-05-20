@@ -28,29 +28,38 @@
 
     <h1>라이벌 대전 Rival</h1>
 
-    <article class="wrap">
+    <div class="switch">
+        <button id="batRecord">
+            <p>타자 기록</p>
+        </button>
+        <button id="pitRecord">
+            <p>투수 기록</p>
+        </button>
+    </div>
+
+    <article class="batting_wrap">
         <div class="stat_wrap">
-            <div class="stats">
+            <div class="batting_stats">
 
                 <h2>MY STAT</h2>
     
-                <h3 id="myName">호날두</h3>
+                <h3 id="myName"></h3>
     
                 <div class="showfirst">
                     <h4>경기</h4>
-                    <p id="myGames">7</p>
+                    <p id="myGames"></p>
         
                     <h4>타율</h4>
-                    <p id="myAvg">.200</p>
+                    <p id="myAvg"></p>
         
                     <h4>출루율</h4>
-                    <p id="myObp">.400</p>
+                    <p id="myObp"></p>
                     
                     <h4>장타율</h4>
-                    <p id="mySlg">.400</p>
+                    <p id="mySlg"></p>
                     
                     <h4>OPS</h4>
-                    <p id="myOps">.800</p>
+                    <p id="myOps"></p>
                 </div>
                 <div class="showlater">
                     <h4>안타</h4>
@@ -128,27 +137,27 @@
     
             </div>
     
-            <div class="stats">
+            <div class="batting_stats">
     
                 <h2>RIVAL</h2>
     
-                <h3 id="otherName">메시</h3>
+                <h3 id="otherName"></h3>
     
                 <div class="showfirst">
                     <h4>경기</h4>
-                    <p id="otherGames">10</p>
+                    <p id="otherGames"></p>
         
                     <h4>타율</h4>
-                    <p id="otherAvg">.333</p>
+                    <p id="otherAvg"></p>
         
                     <h4>출루율</h4>
-                    <p id="otherObp">.333</p>
+                    <p id="otherObp"></p>
                     
                     <h4>장타율</h4>
-                    <p id="otherSlg">.333</p>
+                    <p id="otherSlg"></p>
                     
                     <h4>OPS</h4>
-                    <p id="otherOps">.666</p>
+                    <p id="otherOps"></p>
                 </div>
                 <div class="showlater">
                     <h4>안타</h4>
@@ -222,6 +231,190 @@
     
                     <h4>wRAA</h4>
                     <p id="otherWraa"></p>
+                </div>
+    
+            </div>
+        </div>
+
+        <button id="showAll">전체 기록 보기</button>
+    </article>
+
+    <article class="pitching_wrap">
+        <div class="stat_wrap">
+            <div class="pitching_stats">
+
+                <h2>MY STAT</h2>
+    
+                <h3 id="myName"></h3>
+    
+                <div class="showfirst">
+                    <h4>경기</h4>
+                    <p id="myGamesp"></p>
+        
+                    <h4>승리</h4>
+                    <p id="myWin"></p>
+        
+                    <h4>탈삼진</h4>
+                    <p id="mySo"></p>
+                    
+                    <h4>ERA</h4>
+                    <p id="myEra"></p>
+                    
+                    <h4>볼넷</h4>
+                    <p id="myBb"></p>
+                </div>
+                <div class="showlater">
+                    <h4>패배</h4>
+                    <p id="myLose"></p>
+    
+                    <h4>세이브</h4>
+                    <p id="mySave"></p>
+    
+                    <h4>홀드</h4>
+                    <p id="myHold"></p>
+    
+                    <h4>타자</h4>
+                    <p id="myBatter"></p>
+    
+                    <h4>타수</h4>
+                    <p id="myAtbat"></p>
+    
+                    <h4>이닝</h4>
+                    <p id="myInning"></p>
+    
+                    <h4>피안타</h4>
+                    <p id="myHitsp"></p>
+    
+                    <h4>피홈런</h4>
+                    <p id="myHomerunp"></p>
+    
+                    <h4>사구</h4>
+                    <p id="myHbpp"></p>
+    
+                    <h4>폭투</h4>
+                    <p id="myWp"></p>
+    
+                    <h4>보크</h4>
+                    <p id="myBalk"></p>
+    
+                    <h4>실점</h4>
+                    <p id="myRunallow"></p>
+    
+                    <h4>자책점</h4>
+                    <p id="myEarnedrun"></p>
+    
+                    <h4>승률</h4>
+                    <p id="myWinpct"></p>
+    
+                    <h4>WHIP</h4>
+                    <p id="myWhip"></p>
+    
+                    <h4>BB/SO</h4>
+                    <p id="myBbsop"></p>
+    
+                    <h4>FIP</h4>
+                    <p id="myFip"></p>
+    
+                    <h4>H/9</h4>
+                    <p id="myhperG"></p>
+    
+                    <h4>HR/9</h4>
+                    <p id="myhrperG"></p>
+    
+                    <h4>BB/9</h4>
+                    <p id="mybbperG"></p>
+    
+                    <h4>SO/9</h4>
+                    <p id="mysoperG"></p>
+                </div>
+    
+            </div>
+    
+            <div class="pitching_stats">
+    
+                <h2>RIVAL</h2>
+    
+                <h3 id="otherName"></h3>
+    
+                <div class="showfirst">
+                    <h4>경기</h4>
+                    <p id="otherGamesp"></p>
+        
+                    <h4>승리</h4>
+                    <p id="otherWin"></p>
+        
+                    <h4>탈삼진</h4>
+                    <p id="otherSo"></p>
+                    
+                    <h4>ERA</h4>
+                    <p id="otherEra"></p>
+                    
+                    <h4>볼넷</h4>
+                    <p id="otherBb"></p>
+                </div>
+                <div class="showlater">
+                    <h4>패배</h4>
+                    <p id="otherLose"></p>
+    
+                    <h4>세이브</h4>
+                    <p id="otherSave"></p>
+    
+                    <h4>홀드</h4>
+                    <p id="otherHold"></p>
+    
+                    <h4>타자</h4>
+                    <p id="otherBatter"></p>
+    
+                    <h4>타수</h4>
+                    <p id="otherAtbat"></p>
+    
+                    <h4>이닝</h4>
+                    <p id="otherInning"></p>
+    
+                    <h4>피안타</h4>
+                    <p id="otherHitsp"></p>
+    
+                    <h4>피홈런</h4>
+                    <p id="otherHomerunp"></p>
+    
+                    <h4>사구</h4>
+                    <p id="otherHbpp"></p>
+    
+                    <h4>폭투</h4>
+                    <p id="otherWp"></p>
+    
+                    <h4>보크</h4>
+                    <p id="otherBalk"></p>
+    
+                    <h4>실점</h4>
+                    <p id="otherRunallow"></p>
+    
+                    <h4>자책점</h4>
+                    <p id="otherEarnedrun"></p>
+    
+                    <h4>승률</h4>
+                    <p id="otherWinpct"></p>
+    
+                    <h4>WHIP</h4>
+                    <p id="otherWhip"></p>
+    
+                    <h4>BB/SO</h4>
+                    <p id="otherBbsop"></p>
+    
+                    <h4>FIP</h4>
+                    <p id="otherFip"></p>
+    
+                    <h4>H/9</h4>
+                    <p id="otherhperG"></p>
+    
+                    <h4>HR/9</h4>
+                    <p id="otherhrperG"></p>
+    
+                    <h4>BB/9</h4>
+                    <p id="otherbbperG"></p>
+    
+                    <h4>SO/9</h4>
+                    <p id="othersoperG"></p>
                 </div>
     
             </div>
