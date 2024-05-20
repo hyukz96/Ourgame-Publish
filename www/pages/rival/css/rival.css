@@ -1,3 +1,15 @@
+#addRival {
+  width: 94.5%;
+  display: block;
+  padding: 10px;
+  margin: 20px auto 10px;
+  font-size: 1.25rem;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  background-color: #1a4d2E;
+}
+
 .switch {
   display: flex;
   flex-direction: row;
