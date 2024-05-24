@@ -28,6 +28,9 @@ document.addEventListener("DOMContentLoaded", function() {
         //'23 성대 일요리그 리그스탯
         const leagueWoba = 0.393;
         const wobaScale = 1.25;
+
+        //타자////////////////////////////////////////////////
+
         //경기
         let gameS = document.getElementById("gameS").valueAsNumber;
         //타석
@@ -68,8 +71,8 @@ document.addEventListener("DOMContentLoaded", function() {
         let sacFly = document.getElementById("sacFly").valueAsNumber;
         //단타 갯수 (계산용)
         let singleHits = hitS - (twoBase + threeBase + homeRun);
-    
-        //결과 계산
+
+        //결과 계산 타자
         let avG = hitS / atBat;
         let obP = (hitS + baseOnballs + hitbyPitch) / (atBat + baseOnballs + hitbyPitch + sacFly);
         let slG = totalBase / atBat;
@@ -93,7 +96,9 @@ document.addEventListener("DOMContentLoaded", function() {
         let rcperGame = rC / (atBat - hitS + caughtSteal + sacHit + sacFly + doublePlay) * 27;
     
         
-        //결과 표시
+        
+        
+        //결과 표시 타자
         document.getElementById("avG").textContent = avG.toFixed(3);
         document.getElementById("obP").textContent = obP.toFixed(3);
         document.getElementById("slG").textContent = slG.toFixed(3);
@@ -106,12 +111,14 @@ document.addEventListener("DOMContentLoaded", function() {
         document.getElementById("isoD").textContent = isoD.toFixed(3);
         document.getElementById("wOba").textContent = wOba.toFixed(3);
         document.getElementById("rcperGame").textContent = rcperGame.toFixed(2);
-        document.getElementById("wRaa").textContent = wRaa.toFixed(2);
-        document.getElementById("rPpa").textContent = rPpa.toFixed(2);
+
+        
     }
+    
     
     document.getElementById("getRecordbatting").addEventListener("click", calculationStat);
     
+
     function resetInputs() {
         document.getElementById("gameS").value = "";
         document.getElementById("plateAppear").value = "";
@@ -145,6 +152,34 @@ document.addEventListener("DOMContentLoaded", function() {
         document.getElementById("isoD").textContent = "";
         document.getElementById("wOba").textContent = "";
         document.getElementById("rcperGame").textContent = "";
+
+        document.getElementById("gameSp").value = "";
+        document.getElementById("win").value = "";
+        document.getElementById("lose").value = "";
+        document.getElementById("save").value = "";
+        document.getElementById("hold").value = "";
+        document.getElementById("batterFaced").value = "";
+        document.getElementById("atbatP").value = "";
+        document.getElementById("inninG").value = "";
+        document.getElementById("hitsP").value = "";
+        document.getElementById("homerunP").value = "";
+        document.getElementById("baseonballsP").value = "";
+        document.getElementById("hitbypitchP").value = "";
+        document.getElementById("strikeoutP").value = "";
+        document.getElementById("wildPitch").value = "";
+        document.getElementById("balk").value = "";
+        document.getElementById("runAllowed").value = "";
+        document.getElementById("earnedRun").value = "";
+
+        document.getElementById("erA").textContent = "";
+        document.getElementById("winPct").textContent = "";
+        document.getElementById("whiP").textContent = "";
+        document.getElementById("bbsoP").textContent = "";
+        document.getElementById("fip").textContent = "";
+        document.getElementById("hitperG").textContent = "";
+        document.getElementById("hrperG").textContent = "";
+        document.getElementById("bbperG").textContent = "";
+        document.getElementById("soperG").textContent = "";
     }
     
     
