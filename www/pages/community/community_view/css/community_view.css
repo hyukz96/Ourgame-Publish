@@ -57,6 +57,9 @@ article p {
   border-radius: 0.187rem;
   color: white;
 }
+.buttons button a {
+  color: white;
+}
 
 #writE {
   display: block;
