@@ -12,5 +12,23 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     });
 
-    
+    function goToPage(page) {
+        window.location.href = page;
+    }
+
+    document.querySelector('#mobileNav li:nth-child(1)').addEventListener('click', function() {
+        goToPage('../rank/rank.html');
+    });
+    document.querySelector('#mobileNav li:nth-child(2)').addEventListener('click', function() {
+        goToPage('../community/community.html');
+    });
+    document.querySelector('#mobileNav li:nth-child(3)').addEventListener('click', function() {
+        goToPage('../rival/rival.html');
+    });
+    document.querySelector('#mobileNav li:nth-child(4)').addEventListener('click', function() {
+        goToPage('../record/record.html');
+    });
+    document.querySelector('#mobileNav li:nth-child(5)').addEventListener('click', function() {
+        goToPage('../addfriend/addfriend.html');
+    });
 });
