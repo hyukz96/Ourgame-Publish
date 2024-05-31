@@ -1,35 +1,4 @@
 article {
   width: 94.5%;
   margin: 0 auto;
-}
-article form {
-  padding: 10px 0;
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
-article form .name, article form .year {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-article form .name label, article form .year label {
-  font-size: 1.25rem;
-}
-article form .name input, article form .name select, article form .year input, article form .year select {
-  font-size: 1.125rem;
-  padding: 6px;
-}
-article form .name select, article form .year select {
-  font-family: "KBO-Dia-Gothic_light";
-  color: #d9d9d9;
-}
-article form #addFriend {
-  width: 100%;
-  padding: 5px;
-  font-size: 1.25rem;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  background-color: #1a4d2E;
 }/*# sourceMappingURL=addfriend.css.map */
