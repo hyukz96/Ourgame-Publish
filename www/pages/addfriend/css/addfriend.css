@@ -1,4 +1,105 @@
 article {
   width: 94.5%;
   margin: 0 auto;
+}
+article .emailsearch {
+  padding: 10px 0;
+  display: flex;
+  flex-direction: column;
+}
+article .emailsearch div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 5px 0;
+}
+article .emailsearch div #srcFriend {
+  font-size: 0.8rem;
+  width: 88%;
+  padding: 0.2rem 0 0.2rem 0.2rem;
+  font-family: "KBO-Dia-Gothic_light";
+}
+article .emailsearch div button {
+  width: 7.5%;
+  background-color: #1A4D2E;
+  display: block;
+}
+article .emailsearch div button img {
+  width: 100%;
+  display: block;
+}
+article .pickfriend {
+  display: flex;
+  flex-direction: column;
+  margin: 5px 0 10px;
+}
+article .pickfriend select {
+  font-size: 0.8rem;
+  padding: 0.2rem 0 0.2rem 0.2rem;
+  font-family: "KBO-Dia-Gothic_light";
+  margin: 5px 0;
+}
+article #addNew {
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0.6rem;
+  text-align: center;
+  border: none;
+  background-color: #1A4D2E;
+  color: white;
+  font-size: 1.25rem;
+  border-radius: 0.2rem;
+}
+
+#modal {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background: rgba(0, 0, 0, 0.5);
+}
+#modal .modal_popup {
+  width: 70%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+#modal .modal_popup h2 {
+  padding-bottom: 10px;
+  font-size: 1.125rem;
+}
+#modal .modal_popup .checkbox_wrap {
+  padding: 10px 0;
+}
+#modal .modal_popup .checkbox_wrap label {
+  font-size: 1rem;
+}
+#modal .notice {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#modal .notice p {
+  margin: 10px 0;
+}
+#modal .notice button {
+  background-color: #1A4D2E;
+  border: none;
+  display: block;
+  width: 30px;
+  border-radius: 3px;
+  margin-left: auto;
+}
+#modal .notice button img {
+  display: block;
+  width: 100%;
 }/*# sourceMappingURL=addfriend.css.map */

@@ -33,16 +33,31 @@
     <article>
         <div class="emailsearch">
             <h2>이메일 검색</h2>
-            <input type="search" id="srcFriend">
+            <div>
+                <input type="text" id="srcFriend">
+                <button><img src="img/search.png" alt=""></button>
+            </div>
         </div>
 
-        <div>
+        <div class="pickfriend">
             <h2>친구 선택</h2>
             <select id="frndMenu">
-                <option value="none">추가할 친구를 선택하세요</option>
+                <option value="none" >추가할 친구를 선택하세요</option>
             </select>
         </div>
         <button id="addNew">친구 추가</button>
     </article>
+
+    <div id="modal">
+        <div class="modal_popup">
+            <h2>알림</h2>
+            <div class="notice">
+                <p>친구가 추가되었습니다!</p>
+                <button id="modalClose">
+                    <img src="img/menu_close.png" alt="">
+                </button>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
