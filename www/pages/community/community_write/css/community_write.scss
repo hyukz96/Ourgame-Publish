@@ -52,3 +52,196 @@ article {
         border-radius: 0.20rem;
     }
 }
+
+#tempModal {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background: rgba(0,0,0,0.5);
+    .tempmodal_popup {
+        width: 70%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 5px;
+        h2 {
+            padding-bottom: 10px;
+            font-size: 1.125rem;
+        }
+        .checkbox_wrap {
+            padding: 10px 0;
+            label {
+                font-size: 1rem;
+            }
+        }
+    }
+    .buttons {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        button {
+            background-color: #1A4D2E;
+            border: none;
+            display: block;
+            width: 30px;
+            border-radius: 3px;
+            img {
+                display: block;
+                width: 100%;
+            }
+        }
+        #tempRegister {
+            width: 60px;
+            color: #fff;
+        }
+    }
+}
+
+#tempSavemodal {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background: rgba(0,0,0,0.5);
+    .tempsave_popup {
+        width: 70%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 5px;
+        h2 {
+            padding-bottom: 10px;
+            font-size: 1.125rem;
+        }
+    }
+    .notice {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        p {
+            margin: 10px 0;
+        }
+        button {
+            background-color: #1A4D2E;
+            border: none;
+            display: block;
+            width: 30px;
+            border-radius: 3px;
+            margin-left: auto;
+            img {
+                display: block;
+                width: 100%;
+            }
+        }
+    }
+}
+
+#warningModal {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background: rgba(0,0,0,0.5);
+    .warning_popup {
+        width: 70%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 5px;
+        h2 {
+            padding-bottom: 10px;
+            font-size: 1.125rem;
+        }
+        .warning_word {
+            padding: 10px 0;
+        }
+    }
+    .buttons {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        button {
+            background-color: #1A4D2E;
+            border: none;
+            display: block;
+            width: 30px;
+            border-radius: 3px;
+            img {
+                display: block;
+                width: 100%;
+            }
+        }
+        #warningMove {
+            width: 60px;
+            color: #fff;
+        }
+    }
+}
+
+#doneModal {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background: rgba(0,0,0,0.5);
+    .done_popup {
+        width: 70%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 5px;
+        h2 {
+            padding-bottom: 10px;
+            font-size: 1.125rem;
+        }
+    }
+    .notice {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        p {
+            margin: 10px 0;
+        }
+        button {
+            background-color: #1A4D2E;
+            border: none;
+            display: block;
+            width: 30px;
+            border-radius: 3px;
+            margin-left: auto;
+            img {
+                display: block;
+                width: 100%;
+            }
+        }
+    }
+}

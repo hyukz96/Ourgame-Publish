@@ -51,4 +51,197 @@ article #donE {
   color: white;
   font-size: 1.25rem;
   border-radius: 0.2rem;
+}
+
+#tempModal {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background: rgba(0, 0, 0, 0.5);
+}
+#tempModal .tempmodal_popup {
+  width: 70%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+#tempModal .tempmodal_popup h2 {
+  padding-bottom: 10px;
+  font-size: 1.125rem;
+}
+#tempModal .tempmodal_popup .checkbox_wrap {
+  padding: 10px 0;
+}
+#tempModal .tempmodal_popup .checkbox_wrap label {
+  font-size: 1rem;
+}
+#tempModal .buttons {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+#tempModal .buttons button {
+  background-color: #1A4D2E;
+  border: none;
+  display: block;
+  width: 30px;
+  border-radius: 3px;
+}
+#tempModal .buttons button img {
+  display: block;
+  width: 100%;
+}
+#tempModal .buttons #tempRegister {
+  width: 60px;
+  color: #fff;
+}
+
+#tempSavemodal {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background: rgba(0, 0, 0, 0.5);
+}
+#tempSavemodal .tempsave_popup {
+  width: 70%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+#tempSavemodal .tempsave_popup h2 {
+  padding-bottom: 10px;
+  font-size: 1.125rem;
+}
+#tempSavemodal .notice {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#tempSavemodal .notice p {
+  margin: 10px 0;
+}
+#tempSavemodal .notice button {
+  background-color: #1A4D2E;
+  border: none;
+  display: block;
+  width: 30px;
+  border-radius: 3px;
+  margin-left: auto;
+}
+#tempSavemodal .notice button img {
+  display: block;
+  width: 100%;
+}
+
+#warningModal {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background: rgba(0, 0, 0, 0.5);
+}
+#warningModal .warning_popup {
+  width: 70%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+#warningModal .warning_popup h2 {
+  padding-bottom: 10px;
+  font-size: 1.125rem;
+}
+#warningModal .warning_popup .warning_word {
+  padding: 10px 0;
+}
+#warningModal .buttons {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+#warningModal .buttons button {
+  background-color: #1A4D2E;
+  border: none;
+  display: block;
+  width: 30px;
+  border-radius: 3px;
+}
+#warningModal .buttons button img {
+  display: block;
+  width: 100%;
+}
+#warningModal .buttons #warningMove {
+  width: 60px;
+  color: #fff;
+}
+
+#doneModal {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background: rgba(0, 0, 0, 0.5);
+}
+#doneModal .done_popup {
+  width: 70%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+#doneModal .done_popup h2 {
+  padding-bottom: 10px;
+  font-size: 1.125rem;
+}
+#doneModal .notice {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#doneModal .notice p {
+  margin: 10px 0;
+}
+#doneModal .notice button {
+  background-color: #1A4D2E;
+  border: none;
+  display: block;
+  width: 30px;
+  border-radius: 3px;
+  margin-left: auto;
+}
+#doneModal .notice button img {
+  display: block;
+  width: 100%;
 }/*# sourceMappingURL=community_write.css.map */

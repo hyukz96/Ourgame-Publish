@@ -76,12 +76,6 @@ article #addNew {
   padding-bottom: 10px;
   font-size: 1.125rem;
 }
-#modal .modal_popup .checkbox_wrap {
-  padding: 10px 0;
-}
-#modal .modal_popup .checkbox_wrap label {
-  font-size: 1rem;
-}
 #modal .notice {
   width: 100%;
   display: flex;
